@@ -72,6 +72,11 @@ figcaption {
   font-style: italic;
 }
 
+blockquote {
+  border-left: dashed 1px white;
+  padding-left: 2rem;
+}
+
 @media (max-width: 319px) {
   body {
     width: 90%;
