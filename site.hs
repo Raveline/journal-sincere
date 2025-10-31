@@ -69,13 +69,13 @@ frenchLocale :: TimeLocale
 frenchLocale =
   TimeLocale
     {
-      wDays = [("lundi", "lun")
+      wDays = [ ("dimanche", "dim")
+              , ("lundi", "lun")
               , ("mardi", "mar")
               , ("mercredi", "mer")
               , ("jeudi", "jeu")
               , ("vendredi", "ven")
-              , ("samedi", "sam")
-              , ("dimanche", "dim")]
+              , ("samedi", "sam") ]
     , months = [ ("janvier", "jan")
                , ("février", "fév")
                , ("mars", "mar")
